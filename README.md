@@ -7,6 +7,13 @@ building dependencies following the documentation
 $ sudo dnf install rust cargo
 $ sudo dnf install cmake
 ```
+## Install Wasm Edge
+```
+curl -sSf https://raw.githubusercontent.com/WasmEdge/WasmEdge/master/utils/install.sh | bash
+source $HOME/.wasmedge/env
+```
+![](https://github.com/souravpy/LFX-Mentorship-WasmEdge-2024-01-Pre-test/blob/main/images/Pasted%20image.png?raw=true)
+
 ## Burn pretest
 [Creating a Burn application](https://burn.dev/book/getting-started.html)
 
@@ -19,7 +26,7 @@ Adding burn as dependency, there are several backends like ``` wgpu, candle, tch
 ```
 cargo add burn --features wgpu
 ```
-![output]
+![output](https://github.com/souravpy/LFX-Mentorship-WasmEdge-2024-01-Pre-test/blob/main/images/Screenshot%20from%202024-02-05%2011-40-09.png?raw=true)
 Compiling local package
 ```
 cargo build
@@ -46,3 +53,5 @@ Run the app:
 ```
 cargo run
 ```
+![](https://github.com/souravpy/LFX-Mentorship-WasmEdge-2024-01-Pre-test/blob/main/images/Pasted%20image%201.png?raw=true)
+
