@@ -78,7 +78,7 @@ cp libwasmedge_rustls.so  ~/.wasmedge/plugin/
 ## Run Examples
 Install wasm target
 ```rustup target add wasm32-wasi```
-### WasmEdge Hyper Demo https client
+### 1.WasmEdge Hyper Demo https client
 Cloning the Reqwest Demo repository and navigating to ```client-https``` directory
 ```
 git clone https://github.com/WasmEdge/wasmedge_hyper_demo
@@ -94,7 +94,7 @@ wasmedge compile target/wasm32-wasi/release/wasmedge_hyper_client_https.wasm was
 ```
 ![](https://github.com/souravpy/LFX-Mentorship-WasmEdge-2024-01-Pre-test/blob/main/images/wasm%20hyper%20demo.png?raw=true)
 
-### Wasm reqwest demo https client
+### 2.Wasm reqwest demo https client
 Clone and navigate to ```client-https```
 ```
 git clone https://github.com/WasmEdge/wasmedge_hyper_demo
