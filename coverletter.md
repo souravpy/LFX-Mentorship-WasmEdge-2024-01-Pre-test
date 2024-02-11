@@ -1,4 +1,4 @@
-## Subject: Application for mentee position for the project [ CNCF - WasmEdge: Integrate burn.rs as a new WASI-NN backend](https://mentorship.lfx.linuxfoundation.org/project/16b35930-5b29-43af-b02c-cdf851069c85)
+## Subject: Application for mentee position for the project CNCF - WasmEdge: Integrate burn.rs as a new WASI-NN backend
 
 Dear Potential Mentors,
 
