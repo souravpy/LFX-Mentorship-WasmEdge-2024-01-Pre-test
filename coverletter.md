@@ -22,6 +22,7 @@ Relevant skills I posess for being a quality candidate are
 2. Writing useful tests for the project
 3. Being able to follow instructions and documentations provided
 4. Updating the code as suggested by the maintainers positively and following the code reviews
+5. Being able to communicate and ask good questions
 ```
 I have given the [ pre-test ](https://github.com/souravpy/LFX-Mentorship-WasmEdge-2024-01-Pre-test) provided by the maintainers and successfully compiled and run burn.rs, rustls, and WASM examples successfully, understood that burn.rs is more faster and efficient, also its need to be implemented. 
 
@@ -29,7 +30,7 @@ I studied the documentation for [Develop WasmEdge Plug-in in Rust SDK with witc]
 
 We can can extend the functionality of WasmEdge and customize it to suit specific needs. WasmEdge provides a Rust-based API for registering extension modules and host functions.
 
-## Flow for developing the burn.rs plugin
+### Flow for developing the burn.rs plugin
 ```mermaid
 graph TD
 A[Build WasmEdge from source] -- witc --> B[Generate Rust Plug-in Code]
@@ -73,7 +74,7 @@ rectangle: func(m: mat-key, top: u32, left: u32, bottom: u32, right: u32, R: f64
   waitkey: func(delay: u32) -> unit
   ```
 
-  You can use the witc tool to generate Rust plug-in code for it by running the following command:
+  We can use the witc tool to generate Rust plug-in code for it by running the following command:
 
   ```shell
   witc plugin wasmedge_burnrs.wit
@@ -109,5 +110,12 @@ rectangle: func(m: mat-key, top: u32, left: u32, bottom: u32, right: u32, R: f64
 
   This code imports the generated module and provides safe wrapper functions for each generated function.
 
+I am committed to dedicating the time and effort required to successfully complete this project. 
+Moreover, I am excited about the opportunity to learn from your mentorship and collaborate with the talented members of the CNCF Community.
 
+Thank you for considering my application. I am eager to contribute to the project and work closely with the team to achieve the outlined objectives. I am looking forward to the opportunity to discuss my proposal further and address any questions you may have.
 
+Best regards,\
+Name - Sourav Biswal\
+Email - [souravzsn@gmail.com](souravzsn@gmail.com)\
+Github - [souravpy](github.com/souravpy)
